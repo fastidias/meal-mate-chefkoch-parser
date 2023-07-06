@@ -61,7 +61,9 @@ url = "https://www.chefkoch.de/rezepte/zufallsrezept/"
 rezepte = []
 for i in range(10):
     time.sleep(0.5)
-    rezepte.append(parse_rezept(url))
+    rezept = parse_rezept(url)
+    if rezept:
+        rezepte.append(rezept)
 
 with open("rezepte.json", "w", encoding='utf-8') as text_file:
     text_file.write(json.dumps(rezepte, ensure_ascii=False, indent=4))
