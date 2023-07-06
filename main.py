@@ -17,9 +17,11 @@ def parse_rezept(url):
 
     try:
         return {
-            "title": parse_title(rezeptHtml),
+            "name": parse_title(rezeptHtml),
+            "portion_size": parse_portion_size(rezeptHtml),
             "ingredients": parse_ingredients(rezeptHtml),
-            "source": request.geturl()
+            "directions": parse_directions(rezeptHtml),
+            "source": request.geturl(),
         }
     except NameError:
         print(request.geturl())
@@ -42,6 +44,13 @@ def parse_ingredients(html):
 def parse_title(html):
     title = html.body.find_all('h1')
     return title[0].contents[0]
+
+def parse_portion_size(html):
+    return html.body.find("input", attrs={"name": "portionen"}).get("value")
+
+def parse_directions(html):
+    articles = html.body.find("article", attrs={"class": "ds-or-3"})
+    return articles.find("div", attrs={"class": "ds-box"}).text
 
 url = "https://www.chefkoch.de/rezepte/zufallsrezept/"
 
