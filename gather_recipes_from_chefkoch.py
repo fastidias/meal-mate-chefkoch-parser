@@ -59,7 +59,7 @@ def parse_directions(html):
 url = "https://www.chefkoch.de/rezepte/zufallsrezept/"
 
 rezepte = []
-for i in range(10):
+for i in range(500):
     time.sleep(0.5)
     rezept = parse_rezept(url)
     if rezept:

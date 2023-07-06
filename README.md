@@ -1,7 +1,14 @@
 # meal-mate-chefkoch-parser
-pip install beautifulsoup4
+`pip install beautifulsoup4`\
+`pip install pymongo`
 
-# TODOs:
-- group ingredients instead of grouping in one list (example: https://www.chefkoch.de/rezepte/2305771367945878/Elisenlebkuchen.html )
-- add image for recipe
-- add labels for recipe
+OR
+
+`py -m pip install beautifulsoup4`\
+`py -m pip install pymongo`
+
+## gather_recipes_from_chefkoch.py
+Saves data of random recipes from Chefkoch into rezepte.json 
+
+## fill_mongo_db.py
+Stores data from rezepte.json into Mongo DB
