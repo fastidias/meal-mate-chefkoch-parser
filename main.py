@@ -3,7 +3,7 @@ import ssl
 from bs4 import BeautifulSoup
 import json
 import time
-
+import re
 
 def parse_rezept(url):
     context = ssl._create_unverified_context()
@@ -34,8 +34,12 @@ def parse_ingredients(html):
         trs = tbody.find_all('tr')
         for child in trs:
             amount = child.find('td', attrs={'class': 'td-left'}).text.strip().replace(" ", "")
+            match = re.match(r"(\d+)(\D+)", amount)
+            if match:
+                quantity = match.group(1)
+                unit = match.group(2)            
             name = child.find('td', attrs={'class': 'td-right'}).text.strip()
-            ingredients.append({"name": name, "quantity": amount, "unit": ""})
+            ingredients.append({"name": name, "quantity": quantity, "unit": unit})
 
     return ingredients
 
