@@ -22,7 +22,7 @@ def parse_rezept(url):
             "ingredients": parse_ingredients(rezeptHtml),
             "directions": parse_directions(rezeptHtml),
             "source": request.geturl(),
-            "image-source": parse_image_source(rezeptHtml)
+            "imagesource": parse_image_source(rezeptHtml)
         }
     except NameError:
         print(request.geturl())
