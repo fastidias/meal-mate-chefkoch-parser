@@ -22,6 +22,7 @@ def parse_rezept(url):
             "ingredients": parse_ingredients(rezeptHtml),
             "directions": parse_directions(rezeptHtml),
             "source": request.geturl(),
+            "image-source": parse_image_source(rezeptHtml)
         }
     except NameError:
         print(request.geturl())
@@ -55,6 +56,12 @@ def parse_portion_size(html):
 def parse_directions(html):
     articles = html.body.find("article", attrs={"class": "ds-or-3"})
     return articles.find("div", attrs={"class": "ds-box"}).text
+
+def parse_image_source(html):
+    image_element = html.body.select_one('#i-amp-0 > img')
+    if image_element:
+        return image_element.get("src")
+    return None
 
 url = "https://www.chefkoch.de/rezepte/zufallsrezept/"
 
