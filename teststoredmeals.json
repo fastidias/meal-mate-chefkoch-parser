@@ -1,0 +1,146 @@
+[{
+    "name": "Die beste Bulette für Burger",
+    "portion_size": "8",
+    "ingredients": [
+        {
+            "name": "Hackfleisch, vom Rind",
+            "quantity": "500",
+            "unit": "g"
+        },
+        {
+            "name": "Tabasco",
+            "quantity": "3",
+            "unit": "TL"
+        },
+        {
+            "name": "Pfeffer, schwarz",
+            "quantity": "1",
+            "unit": "EL"
+        },
+        {
+            "name": "Salz",
+            "quantity": "1",
+            "unit": "TL"
+        },
+        {
+            "name": "Apfelsaft",
+            "quantity": "50",
+            "unit": "ml"
+        },
+        {
+            "name": "Mehl",
+            "quantity": "100",
+            "unit": "g"
+        }
+    ],
+    "directions": "\n    Hackfleisch mit Tabasco, Pfeffer und Salz in einer Schüssel vermischen. Den Apfelsaft untermischen. Das Mehl- hineingeben und gut untermischen.\n\r\nBurgerpatties formen und braten.\n\r\nDen Apfelsaft schmeckt man nach dem Braten nicht mehr heraus.\n",
+    "source": "https://www.chefkoch.de/rezepte/2354581374249091/Die-beste-Bulette-fuer-Burger.html?zufall=on",
+    "imagesource": "https://img.chefkoch-cdn.de/rezepte/2354581374249091/bilder/596616/crop-360x240/die-beste-bulette-fuer-burger.jpg",
+    "date":"2023-08-28"
+},
+{
+    "name": "Feuriges Nudelgericht",
+    "portion_size": "4",
+    "ingredients": [
+        {
+            "name": "Nudeln",
+            "quantity": "500",
+            "unit": "g"
+        },
+        {
+            "name": "Erbsen",
+            "quantity": "1",
+            "unit": "Dose/n"
+        },
+        {
+            "name": "Sahne",
+            "quantity": "400",
+            "unit": "ml"
+        },
+        {
+            "name": "Milch",
+            "quantity": "1",
+            "unit": "Becher"
+        },
+        {
+            "name": "Wurst",
+            "quantity": "1",
+            "unit": "Becher"
+        },
+        {
+            "name": "Paprikapulver",
+            "quantity": "1",
+            "unit": "Becher"
+        },
+        {
+            "name": "Pfeffer",
+            "quantity": "1",
+            "unit": "Becher"
+        },
+        {
+            "name": "Salz",
+            "quantity": "1",
+            "unit": "Becher"
+        }
+    ],
+    "directions": "\n    Die Nudeln 8-10 min. in kochendes Salzwasser geben. Danach die Nudeln abgießen. Die Milch und Sahne aufkochen lassen und danach reduzieren (insgesamt ca. 10 min.) Gewürfelte Ringwurst, Erbsen und Nudeln zu der Milch und Sahne geben. Jetzt die o. g. Gewürze dazugeben.\r\nWer es richtig scharf liebt, kann auch noch andere Gewürze (z. B. Cayennepfeffer, Curry, etc.) dazugeben.\n",
+    "source": "https://www.chefkoch.de/rezepte/168021072969366/Feuriges-Nudelgericht.html?zufall=on",
+    "imagesource": "https://img.chefkoch-cdn.de/rezepte/168021072969366/bilder/989200/crop-360x240/feuriges-nudelgericht.jpg",
+    "date":"2023-08-27"
+},
+{
+    "name": "Amerikanischer Apfelkuchen",
+    "portion_size": "1",
+    "ingredients": [
+        {
+            "name": "Butter",
+            "quantity": "125",
+            "unit": "g"
+        },
+        {
+            "name": "Zucker",
+            "quantity": "150",
+            "unit": "g"
+        },
+        {
+            "name": "Ei(er)",
+            "quantity": "150",
+            "unit": "g"
+        },
+        {
+            "name": "Mehl",
+            "quantity": "180",
+            "unit": "g"
+        },
+        {
+            "name": "Backpulver",
+            "quantity": "1",
+            "unit": "TL"
+        },
+        {
+            "name": "Äpfel",
+            "quantity": "3",
+            "unit": "große"
+        },
+        {
+            "name": "Zucker",
+            "quantity": "3",
+            "unit": "große"
+        },
+        {
+            "name": "Zimt",
+            "quantity": "3",
+            "unit": "große"
+        },
+        {
+            "name": "Butter - Flöckchen",
+            "quantity": "3",
+            "unit": "große"
+        }
+    ],
+    "directions": "\n    Butter schmelzen und abkühlen lassen, dann Zucker einrühren, dass es schön schaumig wird. Die Eier nacheinander unterrühren, Mehl und Backpulver unterrühren. In eine gefettete Springform geben. \n\r\nÄpfel schälen und in Spalten schneiden. Schön in den Teig drücken (mit der dünnen Seite nach unten). Mit Zimt und Zucker (vorher mischen) gut bestreuen. Butterflöckchen darauf geben. \n\r\nBei 200 Grad ca. 45 Min backen.\n",
+    "source": "https://www.chefkoch.de/rezepte/531511150007953/Amerikanischer-Apfelkuchen.html?zufall=on",
+    "imagesource": "https://img.chefkoch-cdn.de/rezepte/531511150007953/bilder/308032/crop-360x240/amerikanischer-apfelkuchen.jpg",
+    "date":"2023-08-29"
+}
+]

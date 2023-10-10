@@ -18,11 +18,11 @@ def parse_rezept(url):
     try:
         return {
             "name": parse_title(rezeptHtml),
-            "portion_size": parse_portion_size(rezeptHtml),
+            "portionSize": int(parse_portion_size(rezeptHtml)),
             "ingredients": parse_ingredients(rezeptHtml),
             "directions": parse_directions(rezeptHtml),
             "source": request.geturl(),
-            "imagesource": parse_image_source(rezeptHtml)
+            "imageSource": parse_image_source(rezeptHtml)
         }
     except NameError:
         print(request.geturl())
